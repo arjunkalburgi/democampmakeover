@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Makeover💄 – Open source library for beautiful reveal presentations</title>
+		<title>Makeover💄 presentation slides for Democamp 34</title>
 
-		<meta name="description" content="A library for reveal.js by Hakim El Hattab">
-		<meta name="author" content="Arjun Kalburgi & Open Source Contributors">
+		<meta name="description" content="A presentation for makeover">
+		<meta name="author" content="Arjun Kalburgi">
 
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -19,6 +19,15 @@
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="Reveal Files/lib/css/zenburn.css">
+
+		<style type="text/css">
+			section img {
+				min-height: 600px;
+			}
+			section iframe{
+
+			}
+		</style>
 
 		<!--[if lt IE 9]>
 		<script src="Reveal Files/lib/js/html5shiv.js"></script>
@@ -39,91 +48,59 @@
                 </section>
 
 				<section>
-					<h2>Hello There</h2>
-					<p>
-						makeover💄 gives you more diversity in the design of your reveal.js presentations. With a growing suite of fresh themes, make sure to pick one that suites your needs.
-					</p>
+					<section><h2>Introduction</h2></section>
+					<section><img src="Reveal Files/img/01-me.jpg"></section>
+					<section><img style="min-height: 1px; height: 450px !important;" src="Reveal Files/img/02-ce.jpg"><img style="min-height: 1px; height: 450px !important;" src="https://www.clicktime.com/images/clients/casestudy/headshot-alberta.png"></section>
+					<section><iframe src='https://gfycat.com/ifr/CrispBlueAnole' frameborder='0' scrolling='no' width='860' height='650' allowfullscreen></iframe></section>
+					<section><iframe src='https://gfycat.com/ifr/SnarlingWeeChick' frameborder='0' scrolling='no' width='870' height='650' allowfullscreen></iframe></section>
 				</section>
 
 				<section>
-					<h2>Contribute your own theme!</h2>
-					<p>
-						As makeover💄 is open source, you can build your own themes to add to the library. Learn how: <a href="https://github.com/askalburgi/makeover">github</a> :)
-					</p>
+					<section><h2>How makeover💄 Started</h2></section>
+					<section><img src="https://avatars1.githubusercontent.com/u/629429?v=3&s=460"></section>
+					<section><img src="Reveal Files/img/06-dra.png"></section>
+					<section data-background="https://lh3.googleusercontent.com/FOcy80xb9tEvpXIBFihKAjWaVWpNIbxOsb63sMQ0IEAjRIKfPJDK3D7RWmy8FoEQoorzdDEVHEk8HhE=w1280-h800-rw-no"></section>
+					<section><h3>Goal + Problem = 💄</h3></section>
 				</section>
 
 				<section>
-					<h2>Installation</h2>
-					<p>To add a makeover theme to your reveal presentation, put the appropriately named file from the theme folder into your css/theme folder.</p>
-				</section>
-
-				<section id="themes">
-					<h2>Try a few</h2>
-					<p>
-						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','themes/black.css'); return false;">Black</a>,
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','themes/white.css'); return false;">White</a>,
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','themes/league.css'); return false;">League</a>,
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','themes/sky.css'); return false;">Sky</a>,
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','themes/beige.css'); return false;">Beige</a>,
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','themes/simple.css'); return false;">Simple</a>, <br>
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','themes/serif.css'); return false;">Serif</a>,
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','themes/blood.css'); return false;">Blood</a>,
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','themes/night.css'); return false;">Night</a>,
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','themes/moon.css'); return false;">Moon</a>,
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','themes/solarized.css'); return false;">Solarized</a>, <br>
-						<a href='#'' onclick="document.getElementById('theme').setAttribute('href','themes/makeover.css'); return false;">Makeover</a>,
-						<a href='#'' onclick="document.getElementById('theme').setAttribute('href','themes/eceweek.css'); return false;">ECEWeek</a>,
-						<!-- build:template 
-						<%= newTheme %> 
-						/build -->
-					</p>
-				</section>
-
-				<section>
-					<h2>How does it look?</h2>
-					<p>Flick through the rest of the deck to get a feel for it.</p>
-					<p>The remaining slides are taken from Hakim's demo.</p>
+					<section><h2>makeover💄</h2></section>
+					<section><a target="_blank" href="https://github.com/askalburgi/makeover">(show repo)</a></section>
+					<section id="themes">
+						<h2>Try a few</h2>
+						<p>
+							<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
+							<a href="#" onclick="document.getElementById('theme').setAttribute('href','themes/black.css'); return false;">Black</a>,
+							<a href="#" onclick="document.getElementById('theme').setAttribute('href','themes/white.css'); return false;">White</a>,
+							<a href="#" onclick="document.getElementById('theme').setAttribute('href','themes/league.css'); return false;">League</a>,
+							<a href="#" onclick="document.getElementById('theme').setAttribute('href','themes/sky.css'); return false;">Sky</a>,
+							<a href="#" onclick="document.getElementById('theme').setAttribute('href','themes/beige.css'); return false;">Beige</a>,
+							<a href="#" onclick="document.getElementById('theme').setAttribute('href','themes/simple.css'); return false;">Simple</a>, <br>
+							<a href="#" onclick="document.getElementById('theme').setAttribute('href','themes/serif.css'); return false;">Serif</a>,
+							<a href="#" onclick="document.getElementById('theme').setAttribute('href','themes/blood.css'); return false;">Blood</a>,
+							<a href="#" onclick="document.getElementById('theme').setAttribute('href','themes/night.css'); return false;">Night</a>,
+							<a href="#" onclick="document.getElementById('theme').setAttribute('href','themes/moon.css'); return false;">Moon</a>,
+							<a href="#" onclick="document.getElementById('theme').setAttribute('href','themes/solarized.css'); return false;">Solarized</a>, <br>
+							<a href='#'' onclick="document.getElementById('theme').setAttribute('href','themes/makeover.css'); return false;">Makeover</a>,
+							<a href='#'' onclick="document.getElementById('theme').setAttribute('href','themes/eceweek.css'); return false;">ECEWeek</a>,
+							<!-- build:template 
+							<%= newTheme %> 
+							/build -->
+						</p>
+					</section>
 				</section>
 
 				<section>
-					<h2>Pretty Code</h2>
-					<pre><code class="hljs" data-trim contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) {
-        node.className += ' roll';
-      }
-    }
-  }
-}
-					</code></pre>
-					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-				</section>
-
-				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-					</blockquote>
+					<section><h2>Future for makeover💄</h2></section>
+					<section><img src="Reveal Files/img/08-live.png"></section>
+					<section><img src="https://www.digitalocean.com/company/blog/hacktoberfest-2016/hero-8c94a4f2.png"></section>
 				</section>
 
 				<section style="text-align: left;">
 					<h1>THE END</h1>
 					<p>
-						- <a href="http://slides.com">Try the online editor</a> <br>
-						- <a href="https://github.com/askalburgi/makeover">Source code &amp; documentation</a>
+						- Check it out: https://github.com/askalburgi/makeover <br>
+						- Questions?
 					</p>
 				</section>
 			</div>
