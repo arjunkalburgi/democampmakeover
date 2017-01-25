@@ -1,0 +1,37 @@
+/**
+ * startup edmonton theme for reveal.js.
+ * Author: Arjun Kalburgi
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+
+// Include theme-specific fonts
+@import url(../../lib/font/league-gothic/league-gothic.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+
+
+html * {
+	color-profile: sRGB;
+	rendering-intent: auto;
+}
+
+// Override theme settings (see ../template/settings.scss)
+$mainColor: white;
+$headingColor: white;
+$headingTextShadow: #6A2C70;
+$backgroundColor: #8DC63F;
+$linkColor: black;
+$linkColorHover: lighten( $linkColor, 20% );
+$selectionBackgroundColor: grey;
+
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
